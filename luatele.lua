@@ -12,7 +12,7 @@ local luatele = {
 #   | |__| | | |____  | |__| | | |_) | | |____   / ____ \ 
 #    \_____| |______|  \____/  |____/  |______| /_/    \_\ source globla 
 #                                                         
-#    Mr Zain Alabdeen @yybyy                                                     
+#    Mr Zain Alabdeen @gzain                                                
 
 
 ]],
@@ -2969,7 +2969,7 @@ function luatele.login(state)
       last_name = last_name
     }
   elseif state.authorization_state and state.authorization_state.luatele == 'authorizationStateReady' then
-    print(luatele_function.colors("%{yellow}The files have been connected and played \nDeveloper : @YYBYY"))
+    print(luatele_function.colors("%{yellow}The files have been connected and played \nDeveloper : @gzain"))
   elseif state.authorization_state and state.authorization_state.luatele == 'authorizationStateClosed' then
     print(luatele_function.colors('%{yellow}>> authorization state closed '))
     luatele.get_update = false
